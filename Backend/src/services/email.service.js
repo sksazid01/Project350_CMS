@@ -148,7 +148,7 @@ const sendVerificationEmail = async (to, token) => {
   const verificationEmailUrl = `${config.clientURL}/verify-email?token=${token}`;
   const text = `Dear SUST Student,
 
-Welcome to SUSTCMS - the Club Management System for Ahsanullah University of Science and Technology!
+Welcome to SUSTCMS - the Club Management System for Shahjalal University of Science and Technology!
 
 We're excited to have you join our community. To complete your registration and start exploring the vibrant club life at SUST, please verify your email address by clicking on the link below:
 
@@ -162,7 +162,7 @@ Should you have any questions or need assistance, please don't hesitate to conta
 
 Best regards,
 The SUSTCMS Team
-Ahsanullah University of Science and Technology`;
+Shahjalal University of Science and Technology`;
 
   await sendEmail(to, subject, text);
 };

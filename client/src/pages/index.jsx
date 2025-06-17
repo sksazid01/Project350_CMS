@@ -225,7 +225,7 @@ const Marketing = () => {
                         >
                             <div className="flex-1">
                                 <div className="pb-2.5 text-4xl font-black leading-none transition group-hover:text-black">
-                                    <CountUp start={0} end={18} duration={3} suffix="+"></CountUp>
+                                    <CountUp start={0} end={16} duration={3} suffix="+"></CountUp>
                                 </div>
                                 <span className="font-semibold text-white transition group-hover:text-black">Clubs</span>
                             </div>
@@ -549,10 +549,7 @@ const Marketing = () => {
                             },
                             1000: {
                                 slidesPerView: 3,
-                            },
-                            1600: {
-                                slidesPerView: 4,
-                            },
+                            }
                         }}
                         dir={isRtl ? 'rtl' : 'ltr'}
                         key={isRtl ? 'true' : 'false'}

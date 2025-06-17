@@ -66,7 +66,7 @@ const Header = (props) => {
                                             Robotics
                                         </a>
                                         <a href="https://www.sust.edu/179/cultural/109 " target="_blank" rel="noopener noreferrer">
-                                            Ahsanullah(R.) Peace Club
+                                            SUST Peace Club
                                         </a>
                                         <a href="https://www.sust.edu/179/cultural/109 " target="_blank" rel="noopener noreferrer">
                                             Debating Club

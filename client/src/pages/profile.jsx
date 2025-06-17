@@ -122,7 +122,7 @@ export default function Component() {
                         </p>
                         <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 flex items-center mt-1">
                             <School className="w-4 h-4 mr-2 text-gray-400" />
-                            <strong> Ahsanullah University of Science and Technology</strong>
+                            <strong> Shahjalal University of Science and Technology</strong>
                         </p>
                         <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 flex items-center mt-1">
                             <Building2 className="w-4 h-4 mr-2 text-gray-400" />
